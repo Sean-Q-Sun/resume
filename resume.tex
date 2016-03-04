@@ -1,3 +1,14 @@
+%
+% LaTeX source of my resume
+% =========================
+%
+% Heavily commented to to fit even LaTeX beginners (hopefully).
+%
+% See the `README.md` file for more info.
+%
+% This file is licensed under the CC-NC-ND Creative Commons license.
+%
+
 
 % Start a document with the here given default font size and paper size.
 \documentclass[10pt,a4paper]{article}
@@ -72,15 +83,16 @@
 }
 
 \headedsection  % sets the header for the section and includes any subsections
-  {\href{http://www.marilynchurch.com/}{Marilyn Church, Courtroom Artist}}
+  {Freelance IT, by Referral}
   {\textsc{Manhattan, NYC}} {
   \headedsubsection
-  {Personal IT Consultant}
+  {Reknowned Clients}
   {Nov \apo15 -- Jun 2015}
-  {\bodytext{Maintained a computer lab for student access}}
-  \headedsubsection{NTID Notetaker}
-    {Sept \apo15 -- Dec \apo15}
-    {\bodytext{Assisted Marilyn Church with her technological problems ranging from setting up monthly backups to PC tuneups. \\Designed and developed www.marilynchurch.com}}
+  {\bodytext{
+  {\href{http://www.marilynchurch.com}{Marilyn Church, Courtroom Artist}
+  \\\href{http://www.anngillen.com}{Ann Gillen, Sculptor}
+  \\\href{https://www.linkedin.com/in/george-rubino-4385bb52}{George Rubino, Screenwriter}}}}
+
 }
 
 \headedsection  % sets the header for the section and includes any subsections
@@ -99,7 +111,7 @@
 
 \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
   {Strengths:}
-  {Python, nmap, vim, lockpicking, Frontend Web\emph{(HTML/CSS)}, Microsoft Office Suite \emph{(professional proficiency in Excel)}, Adobe Creative Suite \emph{(Photoshop, Illustrator, Premiere Pro, After Effects)}, Virtualization(VMware Workstation), Linux \emph{(ChromeOs/Crouton, Ubuntu, Debian, Kali Linux)}, Networking \emph{(Cisco Devices)}.}
+  {Python, nmap, vim, lockpicking, Frontend Web\emph{(HTML/CSS)}, Microsoft Office Suite \emph{(professional proficiency in Excel)}, Adobe Creative Suite \emph{(Photoshop, Illustrator, Premiere Pro, After Effects)}, Virtualization\emph{(VMware Workstation)}, Linux \emph{(ChromeOs/Crouton, Ubuntu, Debian, Kali Linux)}, Networking \emph{(Cisco Devices)}.}
 
 \nobreakvspace{.3em}
 \inlineheadsection
@@ -117,10 +129,10 @@
     {seanqsun.com}{HTML/CSS/JS}
     {\bodytext{Professional page, may be turning it to a blog on security writeups.}}
   \headedsubsection
-    {cryptogra.me}{HTML/CSS/JS}
+    {cryptogra.me (working)}{HTML/CSS/JS}
     {\bodytext{Notepad-like webapp that allows the user to write in public, privately by redacting.}}
   \headedsubsection
-    {8tries}{Python}
+    {8tries (working)}{Python}
     {\bodytext{Teaches the user how to crack open a Masterlock in 8 tries or less.}}
 }
 \headedsection
@@ -128,10 +140,13 @@
   {
   \headedsubsection
   {Kappa Delta Rho (House Manager, Eboard Member)}
-  {Fall 2015 to Current}{}
+  {Fall \apo15 to Current}{}
   \headedsubsection
   {RIT Competitive Cybersecurity Club (RC3)}
   {Aug \apo 15 to Current}{}
+    \headedsubsection
+  {CCDC Practice}
+  {Fall \apo 15}{}
   \headedsubsection
   {hackManhattan member}
   {Summer \apo 13 to Summer \apo 15}{}
@@ -142,3 +157,5 @@
 
 
 \end{document}
+
+
