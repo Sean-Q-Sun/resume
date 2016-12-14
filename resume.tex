@@ -1,11 +1,7 @@
 %
 % LaTeX source of my resume
 % =========================
-%
-% Heavily commented to to fit even LaTeX beginners (hopefully).
-%
-% See the `README.md` file for more info.
-%
+
 % This file is licensed under the CC-NC-ND Creative Commons license.
 %
 
@@ -24,11 +20,12 @@
 \usepackage{resume}
 
 
+
 \begin{document}
 \sloppy 
 
 
-\maintitle{Sean Q. Sun}{Computer Security}{Last update on \today}
+\maintitle{Sean Q. Sun}{}{Last update on \today}
 
 \nobreakvspace{0.3em}  % add some page break averse vertical spacing
 
@@ -37,13 +34,13 @@
 2730 Nathaniel Rochester Hall Henrietta, NY 14623
 \\
 \noindent\href{http://www.seanqsun.com}{seanqsun.com}\sbull
-\href{http://www.linkedin.com/in/ciesbreijs}{linkedin.com/in/seanqsun}\sbull
+\href{http://www.linkedin.com/in/seanqsun}{linkedin.com/in/seanqsun}\sbull
 \href{https://www.github.com/sean-q-sun}{github.com/sean-q-sun}
 
 \spacedhrule{0.2em}{-0.4em}  % a horizontal line with some vertical spacing before and after
 
 \roottitle{Summary}  % a root section title
-\noindent \emph{Computer security student with expertise in design, an entrepreneurial mindset, and a passion for finance and economics. Currently seeking an co-op or internship that will provide practical work experience in the field of computer security in either the subfield of white collar crime or national security.}
+\noindent \emph{Computing security student with expertise in finance and economics, an entrepreneurial mindset, and a passion for design. Currently seeking an co-op or internship that will provide practical work experience in the field of computer security in either the subfield of financial technology or national security.}
 
 \spacedhrule{0.2em}{-0.4em}
 
@@ -53,106 +50,97 @@
   {\href{https://www.rit.edu/gccis/computingsecurity/}{Rochester Institute of Technology}}
   {\textsc{Rochester, New York}} {
   \headedsubsection
-    {Bachelor degree in Computer Security}
+    {Bachelor of Science in Computing Security, GPA: 3.28}
     {August 2015 - May 2019 (Expected)} 
-    {}
-}
 
-\headedsection
-  {\href{http://www.hunterschools.org/hs}{Hunter College Highschool}}
-  {\textsc{Manhattan, NYC}} {
-  \headedsubsection
-    {American secondary school for intellectually gifted students.}
-    {Graduated June 2015} {}
 }
-
 
 \spacedhrule{0em}{-0.4em}
-\roottitle{Work Experience}
+\roottitle{Technical Experience}
+
 
 \headedsection  % sets the header for the section and includes any subsections
   {Rochester Institute of Technology}
   {\textsc{Rochester, New York}} {
-  \headedsubsection
-  {Computer Lab Assistant}
-  {Sept \apo15 -- Current}
-  {\bodytext{Maintained a computer lab for student access}}
-  \headedsubsection{NTID Notetaker}
-    {Sept \apo15 -- Dec \apo15}
-    {\bodytext{Took notes for NTID students in an Advertising Design class.}}
-}
+    \headedsubsection{RC3 Website Administrator}{Sept 2016 -- Current}
+    {\bodytext{Working alongside executive board members to create a scalable competition scoring engine.
+    \\Currently redesigning rc3.club with a focus on UI/UX and security.
+    \\Maintaining the current website for members by responding to GitHub issues.}}
+    \headedsubsection{Student System Administrator}
+    {Sept 2016 -- Current}
+    {\bodytext{Working alongside the Software Engineering department's System Administrator to effectively install, configure, and maintain infrastructure.
+    \\Creating a VMware lab for senior students to work on their projects.}}
 
-\headedsection  % sets the header for the section and includes any subsections
-  {Freelance IT, by Referral}
-  {\textsc{Manhattan, NYC}} {
-  \headedsubsection
-  {Reknowned Clients}
-  {Nov \apo15 -- Jun 2015}
-  {\bodytext{
-  {\href{http://www.marilynchurch.com}{Marilyn Church, Courtroom Artist}
-  \\\href{http://www.anngillen.com}{Ann Gillen, Sculptor}
-  \\\href{https://www.linkedin.com/in/george-rubino-4385bb52}{George Rubino, Screenwriter}}}}
 
 }
 
 \headedsection  % sets the header for the section and includes any subsections
   {\href{http://www.moaf.org/about/people/meyers_chris}{Museum of American Finance}}
-  {\textsc{Manhattan, NYC}} {
+  {\textsc{Manhattan, NY}} {
   \headedsubsection
     {Intern}
-    {Jan \apo15 -- Aug \apo15}
+    {Jan 2015 -- Aug 2016 (Seasonal)}
     {\bodytext{Directly and personally assisted the Director of Education in specialized projects such as financial evaluations of enterprises and educational video production. 
-    \\Assisted in setting up remote accessibility to museum's kiosks. 
-    \\Participated in high level talks where my financial evaluations were used for investment considerations.}}
+    \\Supervised and trained a new group of interns to take on responsibilities.
+    \\Participated in high level talks and presented financial evaluations for actual investments.
+    \\Assisted in remodeling Pace University's undergraduate Introduction to Finance course.}}
+}
+
+\headedsection  % sets the header for the section and includes any subsections
+  {Freelance IT, by Referral}
+  {\textsc{Manhattan, NY}} {
+  \headedsubsection
+    {Entrepreneur, Self-Employed}
+    {Nov 2015 -- Jun 2015}
+    {\bodytext{Started an IT service in the heart of Manhattan servicing NYC creatives offering training, website development, backups, computer tuneups, and other miscellaneous work.
+    }}
+  \headedsubsection
+  {Renowned Clients}  
+  {\bodytext{
+  {\href{http://www.marilynchurch.com}{Marilyn Church, Courtroom Artist}
+  \\\href{http://www.anngillen.com}{Ann Gillen, American Sculptor}
+  \\\href{https://www.linkedin.com/in/george-rubino-4385bb52}{George Rubino, Emmy Award Winning Screenwriter}}}}
+
 }
 
 \spacedhrule{0em}{-0.4em}
-\roottitle{Skills}
+\roottitle{Skill Proficiency}
 
 \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
-  {Strengths:}
-  {Python, nmap, vim, lockpicking, Frontend Web\emph{(HTML/CSS)}, Microsoft Office Suite \emph{(professional proficiency in Excel)}, Adobe Creative Suite \emph{(Photoshop, Illustrator, Premiere Pro, After Effects)}, Virtualization\emph{(VMware Workstation)}, Linux \emph{(ChromeOs/Crouton, Ubuntu, Debian, Kali Linux)}, Networking \emph{(Cisco Devices)}.}
-
-\nobreakvspace{.3em}
+  {Languages:}{Python, Java*}
+\inlineheadsection{Web:}{HTML, CSS, JS, Jekyll, Flask*}
+\inlineheadsection{Networking:}{Cisco Switches and Routers, nmap, Wireshark}
+\inlineheadsection{Virtualization:}{VMware Workstation, ESXI, vSphere Client, Docker*}
+\inlineheadsection{Cloud Computing:}{Amazon Web Services, Digital Ocean}
+\inlineheadsection{Operating Systems:}{Linux \emph{(ChromeOs/Crouton, Ubuntu, Kali Linux)}, Unix \emph{(OpenBSD, FreeBSD*)}, Windows}
+\inlineheadsection{Misc:}{vim, git, Jira, UI/UX Design, Adobe Creative Suite, Microsoft Excel and Visio, lockpicking}
 \inlineheadsection
-  {Learning:}
-  {Javascript, Windows Powershell, Metasploit, git.}
+  {*}{Familiar and improving more upon}
 
 \nobreakvspace{1em}
 
 \spacedhrule{0em}{-0.4em}
 \roottitle{Relevant Self Motivated Work}
-\headedsection 
-  {Projects}
-  {github.com/sean-q-sun} {
-  \headedsubsection
-    {seanqsun.com}{HTML/CSS/JS}
-    {\bodytext{Professional page, may be turning it to a blog on security writeups.}}
-  \headedsubsection
-    {cryptogra.me (working)}{HTML/CSS/JS}
-    {\bodytext{Notepad-like webapp that allows the user to write in public, privately by redacting.}}
-  \headedsubsection
-    {8tries (working)}{Python}
-    {\bodytext{Teaches the user how to crack open a Masterlock in 8 tries or less.}}
-}
-\headedsection
-  {Activities}{}
-  {
-  \headedsubsection
-  {Kappa Delta Rho (House Manager, Eboard Member)}
-  {Fall \apo15 to Current}{}
-  \headedsubsection
-  {RIT Competitive Cybersecurity Club (RC3)}
-  {Aug \apo 15 to Current}{}
-    \headedsubsection
-  {CCDC Practice}
-  {Fall \apo 15}{}
-  \headedsubsection
-  {hackManhattan member}
-  {Summer \apo 13 to Summer \apo 15}{}
-  \headedsubsection{picoCTF (highest rank achieved: 6th)}{Oct \apo 14 to Nov \apo 14}{}
-}
 
+\headedsection 
+  {Most Recent Competition}
+  {} {
+    \headedsubsection
+    {Attack/Defend}{\textsc{Rank}}
+    {\bodytext{A.S.I.S.T '16 -- Alfred State University \hfill{\emph{1st}}}
+    }
+
+
+}
+\headedsection 
+  {Most Recent Project}
+  {} {
+   
+  \headedsubsection
+    {RC3 CTF}{Flask, Nginx, MySQL, AWS}
+    {\bodytext{Built, from the ground up, the annual RC3 CTF infrastructure with AWS alongside the RC3 president. Gave a talk for fellow students and participants on the the process.}}
+
+}
 
 
 
